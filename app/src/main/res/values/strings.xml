@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">health</string>
+    <string name="textHello">Hello, I am Roger</string>
+    <string name="calendar">Calendar Button</string>
+    <string name="message">message</string>
+    <string name="checkin">check in button</string>
+    <string name="Quote">quote button</string>
+    <string name="roger">roger</string>
+    <string name="tvTitle">Welcome, </string>
+    <string name="userName">Type your name here</string>
+    <string name="chimes">Play Music </string>
+    <string name="textName">Whats your name?</string>
+    <string name="textGender">Whats your gender?</string>
+    <string name="switchButton">Continue</string>
+    <string name="rogerHome">Hello, I am Roger, dedicated to supporting your mental well-being. I am here to help you stay connected with your mental health and ensure you are doing well.</string>
+
+    <string name="rbcheckin">Mood</string>
+    <string name="btCheckIn">Continue</string>
+    <string name="rbQ1"></string>
+
+    <string name="checkInDes">Hey, here we have a check in. .</string>
+    <string name="calendarDes"> Click on a day to see your mood for that day</string>
+    <string name="messageDes">If you need to talk to someone now call 988 for immediate help. Down  below is access to a website where you can get therapy </string>
+    <string name="quoteDes">Hey there, here we have quotes of the day. Click on the day to read your quote.</string>
+
+    <string name="webView">Web</string>
+
+    <string name="dayOne"> “There is hope, even when your brain tells you there isn’t.” John Green, 2019</string>
+    <string name="dayTwo">"We become what we think about most of the time, and thats the strangest secret." Earl Nightingale</string>
+    <string name="dayThree">"Things work out best for those who make the best of how things work out." John Wooden</string>
+    <string name="dayFour">"Even if you stumble, you're still moving forward." Victor Kiam</string>
+    <string name="dayFive">"You never know what's around the corner. It could be everything. Or it could be nothing. You keep putting one foot infront of the other, and then one day you look back and you've climbed a mountain." Tom Hiddleston</string>
+    <string name="daySix">"The surest way to make your dreams come true is to live them." Roy Bennett</string>
+    <string name="daySeven">"Attitude is a little thing that makes a big difference." Winston Churchill</string>
+
+    <string-array name="tvGroup">
+        <item> Male</item>
+        <item> Female</item>
+    </string-array>
+
+</resources>

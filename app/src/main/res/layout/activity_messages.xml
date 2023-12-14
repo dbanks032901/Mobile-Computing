@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Messages">
+
+    <LinearLayout
+        android:layout_width="327dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle">
+
+        <ImageButton
+            android:id="@+id/imCalendar"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/calendar"
+            android:foreground="@drawable/c" />
+
+        <ImageButton
+            android:id="@+id/imQuote"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/Quote"
+            android:foreground="@drawable/q" />
+
+        <ImageButton
+            android:id="@+id/imCheckIn"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/checkin"
+            android:foreground="@drawable/check_logo_png_17" />
+
+        <ImageButton
+            android:id="@+id/imMessages"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/message"
+            android:foreground="@drawable/mes" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="133dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="183dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/thh" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="296dp"
+        android:layout_height="364dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/messageDes"
+        android:layout_width="288dp"
+        android:layout_height="104dp"
+        android:text="@string/messageDes"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
